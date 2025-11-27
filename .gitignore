@@ -1,0 +1,26 @@
+# Ignore Moodle data directories
+moodledata/
+*/moodledata/
+
+# Ignore Docker for Moodle
+moodle-docker/
+*/moodle-docker/
+
+# Ignore send folder (contains backups)
+send/
+*/send/
+
+# Ignore backup & archive files
+*.tar
+*.tar.gz
+*.zip
+*.7z
+
+# Ignore logs
+*.log
+
+# Ignore sessions, caches
+cache/
+temp/
+localcache/
+sessions/
